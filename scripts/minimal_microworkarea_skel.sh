@@ -9,11 +9,11 @@ cd ~
 mkdir micro_skel
 mkdir temp
 cd temp
-git clone https://www.github.com/britovski/adder_ghdl
-cp adder_ghdl/sources.tgz ../micro_skel
+git clone https://www.github.com/britovski/micro_skel
+cp micro_skel/sources.zip ../micro_skel
 cd ../micro_skel
-tar zxvpf sources.tgz
-rm sources.tgz
+unzip sources.zip
+rm sources.zip
 rm -rf ../temp
 
 echo "Minimal workarea done!"
