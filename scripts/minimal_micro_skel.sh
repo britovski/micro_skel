@@ -25,6 +25,8 @@ yum install gcc gcc-c++ autoconf automake patch patchutils indent libtool python
 yum install mesa-libGL mesa-libGLU mesa-libGLU-devel libXp libXp-devel libXmu-devel tcl tk tcl-devel tk-devel cairo cairo-devel -y
 yum install graphviz libXaw-devel readline-devel flex bison -y
 #yum install openmpi openmpi-devel openmpi3 openmpi-devel3 -y #use if you want multi-core support
+yum install gcc-gnat -y
+yum install epel-release -y
 
 echo "Downloading tools..."
 wget -O ghdl-0.37.tar.gz https://github.com/ghdl/ghdl/archive/v0.37.tar.gz
