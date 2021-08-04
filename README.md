@@ -27,9 +27,9 @@ Step 1. Download (or clone the repository) and change scripts file permissions.
 Step 2. Run the 'minimal_micro_skel.sh' as root and them download and run the 'minimal_microworkarea_skel.sh' script as user.
 
         su
-        ./minimal_opentools.sh
+        ./minimal_micro_skel.sh
         exit
-        ./minimal_sky130_skel.sh
+        ./minimal_microworkarea_skel.sh
 
 I call this first option as minimal since it support basic design flow with basic following open source EDA tools:
 - GHDL (version 33);
