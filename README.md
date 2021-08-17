@@ -60,7 +60,7 @@ Here we'll install an emulator to run DOS on linux as well as install the Classi
 
 For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `tasm_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
 
-                sudo ./tasm_install.sh
+                ./tasm_install.sh
 
 Go to my repository `/tasm_hello` and see how to have this first x86 assembly experience using this skel. Have fun!
 
