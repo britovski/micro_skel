@@ -54,6 +54,16 @@ Of course, you can customize the scripts to do in a different way.
 
 This minimal setup will provide you to compile and simulate RTL designs using VHDL.
 
+### x86 DOS Experiences
+
+Here we'll install an emulator to run DOS on linux as well as install the Classic Borland Turbo Assembler for x86 in order to have a first experience in low level programming. Also, we create a new directory on the `micro_skel` named `tasm`.
+
+For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `tasm_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
+
+                sudo ./tasm_install
+
+See my repository `/tasm_hello` to see how to have this first x86 assembly experience using this skel.
+
 ### Complete Skel
 
 Work in progress...
