@@ -64,6 +64,18 @@ For this setup you may need first Minimal skel done (as performed in steps 1 and
 
 Go to my repository `/tasm_hello` and see how to have this first x86 assembly experience using this skel. Have fun!
 
+### x86-64 Assembly Linux Experiences
+
+Here we'll install the NASM assembler on linux in order to continues the experience in low level programming, now with x86-64 assembly programming. 
+
+For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `nasm_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
+
+./nasm_install.sh
+
+See the slides of the M&M course and have fun!
+
+Tip: test the flow using _hello.asm_ example and then _endianness.asm_ to understand how data storage is performed on x86 architecture.
+
 ### Complete Skel
 
 Work in progress...
