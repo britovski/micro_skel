@@ -76,6 +76,15 @@ See the slides of the M&M course and have fun!
 
 Tip: test the flow using _hello.asm_ example and then _endianness.asm_ to understand how data storage is performed on x86 architecture.
 
+### RISC-V
+
+Temporary setup:
+- Download and unpack GNU Embedded Toolchain — v2020.12.8 for CentOS to compile; and Spike Disassembler — v2020.12.1 to simulate;
+at https://www.sifive.com/software.
+- Use the tools to compile and simulate the Hello World programs from my `riscv_hello` repo.
+
+
+
 ### Complete Skel
 
 Work in progress...
