@@ -74,7 +74,9 @@ For this setup you may need first Minimal skel done (as performed in steps 1 and
 
 See the slides of the M&M course and have fun!
 
-Tip: test the flow using _hello.asm_ example and then _endianness.asm_ to understand how data storage is performed on x86 architecture.
+Tip1: test the flow using _hello.asm_ example and then _endianness.asm_ to understand how data storage is performed on x86 architecture.
+
+Tip2: test using GNU toolchain (at&t vs intel syntax; and using gcc vs as+ld).
 
 ### RISC-V
 
