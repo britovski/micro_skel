@@ -15,7 +15,7 @@ Of course, the worst option is to run on a virtual machine because virtualizatio
 
 If you want to know how to install CentOS 7 see the following instuctions: https://linoxide.com/how-tos/centos-7-step-by-step-screenshots/
 
-At least 20 Gb space is required but 40-60 Gb space is recommended.
+At least 10 Gb space is required but 20-40 Gb space is recommended.
 
 ### Minimal Skel
 Once you have a fresh CentOS 7 Linux installed, you can setup an skel for toolchain and workarea, following below steps:
