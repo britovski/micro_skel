@@ -70,7 +70,7 @@ Here we'll install the NASM assembler on linux in order to continues the experie
 
 For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `nasm_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
 
-./nasm_install.sh
+                ./nasm_install.sh
 
 See the slides of the M&M course and have fun!
 
@@ -80,20 +80,20 @@ Tip2: test using GNU toolchain (at&t vs intel syntax; and using gcc vs as+ld).
 
 ### RISC-V
 
-Temporary setup (not recommended now):
-- Download and unpack GNU Embedded Toolchain — v2020.12.8 for CentOS to compile; and Spike Disassembler — v2020.12.1 to simulate;
-at https://www.sifive.com/software.
-- Use the tools to compile and simulate the Hello World programs from my `riscv_hello` repo.
-
-Integrated setup:
-
 Here we'll install the RISC-V toolchain in order to continues the experience programming for a RISC processor. 
 
 For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `riscv_toolchain_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
 
-./riscv_toolchain_install.sh
+                ./riscv_toolchain_install.sh
 
 Go to my repository `/riscv_hello` and see how to have this first RISC-V experience using this skel. Have fun!
+
+--
+Temporary/alternative setup (not recommended now):
+- Download and unpack GNU Embedded Toolchain — v2020.12.8 for CentOS to compile; and Spike Disassembler — v2020.12.1 to simulate;
+at https://www.sifive.com/software.
+- Use the tools to compile and simulate the Hello World programs from my `riscv_hello` repo.
+--
 
 ### Complete Skel
 
