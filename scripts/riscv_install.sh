@@ -19,7 +19,7 @@ mkdir riscv
 
 echo "Create temporary directory to clone toolchain"
 # if you are using a VM with less than 20 Gb, then, create in a pendrive or similar with at least 20 Gb space.
-cd /media/run/micro
+cd /run/media/micro #use the temp dir path
 mkdir riscv
 cd riscv
 
@@ -34,6 +34,8 @@ echo "Clonning and installing RISCV-GNU-TOOLCHAIN..."
 git clone https://github.com/riscv/riscv-gnu-toolchain
 cd riscv-gnu-toolchain
 ./configure --prefix=/opt/riscv --enable-multilib
+make #for newlib installation
+# if you want glibc linux user mode compatible, use $ make linux
 cd ..
 
 echo "Clonning and installing RISCV-ISA-SIM, aka Spike..."
