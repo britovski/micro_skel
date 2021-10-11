@@ -52,12 +52,18 @@ cd ..
 echo "Clonning and installing RISCV-PK, aka Proxy Kernel..."
 git clone https://github.com/riscv-software-src/riscv-pk
 cd riscv-pk
-mkdir build
-cd build
+mkdir build32
+cd build32
 ../configure --prefix=$RISCV --host=riscv64-unknown-elf --with-arch=rv32i
 make
 make install
 cd ..
+
+mkdir build64
+cd build64
+../configure --prefix=$RISCV --host=riscv64-unknown-elf
+make
+make install
 cd ..
 
 cd ..
@@ -71,4 +77,5 @@ cho "###########################################################################
 echo "To complete the setup you need to update the '.bashrc' file with the following paths:"
 echo "export RISCV=/opt/riscv"
 echo "export PATH=$PATH:$RISCV/bin"
+echo "export PATH=$PATH:$RISCV/riscv32-unknown-elf/bin"
 echo "#####################################################################################################################"
