@@ -86,8 +86,8 @@ For this setup you may need first Minimal skel done (as performed in steps 1 and
 
                 ./riscv_install.sh
                 
-                NOTE: if the script stop, proceed with the execution of ./riscv_install_p2.sh (for more details, open and view the script comments).
-                NOTE2: if you have less than 20 Gb, you will need to perform some workaround to add more disk space (for more details, open and view the script comments).
+NOTE: if the script stop, proceed with the execution of ./riscv_install_p2.sh (for more details, open and view the script comments).
+NOTE2: if you have less than 20 Gb, you will need to perform some workaround to add more disk space (for more details, open and view the script comments).
 
 Go to my repository `/riscv_hello` and see how to have this first RISC-V experience using this skel. Have fun!
 
