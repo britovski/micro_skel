@@ -82,9 +82,12 @@ Tip2: test using GNU toolchain (at&t vs intel syntax; and using gcc vs as+ld).
 
 Here we'll install the RISC-V toolchain in order to continues the experience programming for a RISC processor. 
 
-For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `riscv_toolchain_install.sh` script. Since downloaded (and changed permissions as in step 1), run it using:
+For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `riscv_install.sh` (and maybe riscv_install_p2.sh script). Since downloaded (and changed permissions as in step 1), run it using:
 
-                ./riscv_toolchain_install.sh
+                ./riscv_install.sh
+                
+                NOTE: if the script stop, proceed with the execution of ./riscv_install_p2.sh (for more details, open and view the script comments).
+                NOTE2: if you have less than 20 Gb, you will need to perform some workaround to add more disk space (for more details, open and view the script comments).
 
 Go to my repository `/riscv_hello` and see how to have this first RISC-V experience using this skel. Have fun!
 
