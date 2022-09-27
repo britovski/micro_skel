@@ -1,4 +1,4 @@
-echo "Installation of RISC-V toolchain will begin..."
+echo "Installation of RISC-V toolchain part 2..."
 
 echo "You will need root permissions to perform tools installation..."
 
@@ -6,27 +6,6 @@ if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
    exit 1
 fi
-
-echo "Resolving dependencies..."
-yum install autoconf automake python3 libmpc-devel mpfr-devel gmp-devel gawk  bison flex texinfo patchutils gcc gcc-c++ zlib-devel expat-devel -y
-yum install centos-release-scl -y
-yum install devtoolset-7-make -y
-yum install dtc -y
-
-echo "Seting up RISC-V install dir..."
-cd /opt
-mkdir riscv
-
-echo "Create temporary directory to clone toolchain"
-# if you are using a VM with less than 20 Gb, then, create a directory in a pendrive or similar, or a shared folder, with at least 20 Gb space.
-#cd /run/media/micro #use the temp dir path
-#mkdir riscv
-cd riscv
-
-echo "Using devtoolset for CentOS compatible installation..."
-scl enable devtoolset-7 bash
-
-#some systems will stop here. So you need to continue manually or use part2.
 
 echo "Setting up RISC-V paths..."
 export RISCV=/opt/riscv
@@ -75,7 +54,7 @@ exit
 echo "RISC-V toolchain installation done!"
 echo "Back to user and perform the below configuration in .bashrc file"
 
-echo "#####################################################################################################################"
+cho "#####################################################################################################################"
 echo "To complete the setup you need to update the '.bashrc' file with the following paths:"
 echo "export RISCV=/opt/riscv"
 echo "export PATH=$PATH:$RISCV/bin"
