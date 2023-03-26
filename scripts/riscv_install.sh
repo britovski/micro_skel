@@ -10,7 +10,7 @@ fi
 echo "Resolving dependencies..."
 yum install autoconf automake python3 libmpc-devel mpfr-devel gmp-devel gawk  bison flex texinfo patchutils gcc gcc-c++ zlib-devel expat-devel -y
 yum install centos-release-scl -y
-yum install devtoolset-7-make -y
+yum install devtoolset-7-make devtoolset-7-gcc-c++ -y
 yum install dtc -y
 
 echo "Seting up RISC-V install dir..."
@@ -66,6 +66,7 @@ cd build64
 ../configure --prefix=$RISCV --host=riscv64-unknown-elf
 make
 make install
+cd ..
 cd ..
 
 cd ..
