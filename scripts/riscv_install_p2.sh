@@ -46,7 +46,6 @@ cd build64
 make
 make install
 cd ..
-cd ..
 
 cd ..
 rm -rf riscv
