@@ -26,7 +26,7 @@ cd riscv
 echo "Using devtoolset for CentOS compatible installation..."
 scl enable devtoolset-7 bash
 
-#some systems will stop here. So you need to continue manually or use part2.
+#some systems will stop here. So you need to continue manually or use part2 with the command: "/home/SEU_USUARIO/PASTA_DO_SCRIPT/riscv_install_p2.sh"
 
 echo "Setting up RISC-V paths..."
 export RISCV=/opt/riscv
