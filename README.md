@@ -99,6 +99,16 @@ at https://www.sifive.com/software.
 - Use the tools to compile and simulate the Hello World programs from my `riscv_hello` repo.
 --
 
+### ARM
+
+Here we'll install the ARM toolchain in order to continues the experience programming for other RISC processors. 
+
+For this setup you may need first Minimal skel done (as performed in steps 1 and 2) and download (or clone) the `arm_install.sh`. Since downloaded (and changed permissions as in step 1), run it using:
+
+                ./riscv_install.sh
+               
+Go to my repository `/arm_hello` and see how to have this first ARM experience using this skel. Have fun!
+
 ### Complete Skel
 
 Work in progress...
